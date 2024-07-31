@@ -1,0 +1,14 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Nav = () => {
+  return (
+    <nav className='flex justify-center gap-x-5'>
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+    <Link to="/gallery" className='ml-5'>Gallery</Link>
+    </nav>
+  )
+}
+
+export default Nav
